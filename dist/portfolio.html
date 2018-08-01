@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Igor Chernyshev Portfolio</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
 
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
-<body id="bg-img">
+<body>
   <header>
     <div class="menu-btn">
       <div class="btn-line"></div>
@@ -24,13 +24,13 @@
         <div class="portrait"></div>
       </div>
       <ul class="menu-nav">
-        <li class="nav-item current">
+        <li class="nav-item">
           <a href="index.html" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
           <a href="about.html" class="nav-link">About Me</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item current">
           <a href="portfolio.html" class="nav-link">Portfolio</a>
         </li>
         <li class="nav-item">
@@ -39,25 +39,65 @@
       </ul>
     </nav>
   </header>
-  <main id="home">
-    <h1 class="lg-heading">Igor
-      <span class="text-secondary">Chernyshev</span>
+  <main id="portfolio">
+    <h1 class="lg-heading">My
+      <span class="text-secondary">Portfolio</span>
     </h1>
     <h2 class="sm-heading">
-      Web Developer, JavaScript Enthusiast
+      Here are some of my projects...
     </h2>
-    <div class="icons">
-      <a href="#">
-        <i class="fab fa-linkedin fa-2x"></i>
-      </a>
-      <a href="#">
-        <i class="fab fa-github fa-2x"></i>
-      </a>
-      <a href="#">
-        <i class="far fa-envelope fa-2x"></i>
-      </a>
+    <div class="projects">
+      <div class="item">
+        <a href="#!">
+          <img src="img/projects/notegame.png" alt="notegame">
+        </a>
+        <a href="#" class="btn-light">
+          <i class="fas fa-eye">Note-Learning Game</i>
+        </a>
+        <a href="" class="btn-dark">
+          <i class="fab fa-github">Github</i>
+        </a>
+      </div>
+      <div class="item">
+        <a href="#!">
+          <img src="img/projects/giftastic.png" alt="notegame">
+        </a>
+        <a href="#" class="btn-light">
+          <i class="fas fa-eye">Giftastic</i>
+        </a>
+        <a href="" class="btn-dark">
+          <i class="fab fa-github">Github</i>
+        </a>
+      </div>
+      <div class="item">
+        <a href="#!">
+          <img src="img/projects/hangman.png" alt="notegame">
+        </a>
+        <a href="#" class="btn-light">
+          <i class="fas fa-eye">Hangman</i>
+        </a>
+        <a href="" class="btn-dark">
+          <i class="fab fa-github">Github</i>
+        </a>
+      </div>
+      <div class="item">
+        <a href="#!">
+          <img src="img/projects/movies-trivia.png" alt="notegame">
+        </a>
+        <a href="#" class="btn-light">
+          <i class="fas fa-eye">Movies Trivia Game</i>
+        </a>
+        <a href="" class="btn-dark">
+          <i class="fab fa-github">Github</i>
+        </a>
+      </div>
     </div>
   </main>
+
+  <footer id="main-footer">
+    &copy;
+    <span id="year"></span> Igor Chernyshev
+  </footer>
 
   <script src="./js/main.js"></script>
 </body>
