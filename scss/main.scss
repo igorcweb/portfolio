@@ -19,12 +19,14 @@ h3 {
   font-weight: 400;
 
   &.lg-heading {
-    font-size: 6rem;
+    font-size: 5rem;
+    letter-spacing: 2px;
   }
 
   &.sm-heading {
     display: inline-block;
     margin-bottom: 2rem;
+    letter-spacing: 1px;
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
   }
@@ -71,6 +73,14 @@ main {
   }
 }
 
+.portrait {
+  width: 250px;
+  height: 250px;
+  background: url('../img/portrait.png');
+  border-radius: 50%;
+  border: 3px solid $secondary-color;
+}
+
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -79,6 +89,11 @@ main {
     'skill1 skill2 skill3';
   grid-template-columns: repeat(3, 1fr);
 
+  .portrait {
+    background: url('../img/portrait.png');
+    width: 250px;
+    height: 250px;
+  }
   .bio-image {
     margin: auto;
     grid-area: bioimage;
@@ -111,7 +126,7 @@ main {
 //Portfolio/Projects
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 1rem;
 
   grid-template-columns: repeat(3, 1fr);
 

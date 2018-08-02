@@ -54,12 +54,12 @@
     transition: all 0.5s ease-out; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
-    .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
-      background: url("../img/portrait.png");
-      border-radius: 50%;
-      border: 3px solid #eece1a; }
+  .menu .portrait {
+    width: 250px;
+    height: 250px;
+    background: url("../img/portrait.png");
+    border-radius: 50%;
+    border: 3px solid #eece1a; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -161,12 +161,14 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 6rem; }
+    font-size: 5rem;
+    letter-spacing: 2px; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
     display: inline-block;
     margin-bottom: 2rem;
+    letter-spacing: 1px;
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
 
@@ -197,11 +199,22 @@ main {
     main#home h1 {
       margin-top: 20vh; }
 
+.portrait {
+  width: 250px;
+  height: 250px;
+  background: url("../img/portrait.png");
+  border-radius: 50%;
+  border: 3px solid #eece1a; }
+
 .about-info {
   display: grid;
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'skill1 skill2 skill3';
   grid-template-columns: repeat(3, 1fr); }
+  .about-info .portrait {
+    background: url("../img/portrait.png");
+    width: 250px;
+    height: 250px; }
   .about-info .bio-image {
     margin: auto;
     grid-area: bioimage;
@@ -223,7 +236,7 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
@@ -315,7 +328,12 @@ main {
       height: 150px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'skill1' 'skill2' 'skill3';
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+    .about-info .portrait {
+      background: url("../img/portrait-sm.png");
+      width: 150px;
+      height: 150px;
+      margin: auto; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
@@ -326,6 +344,10 @@ main {
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem; }
+      font-size: 4rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .bio p {
+    font-size: 1.3rem; }
+  h1 {
+    font-size: 3rem; } }

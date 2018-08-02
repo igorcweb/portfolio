@@ -82,14 +82,14 @@
       //Slide in from top
       transform: translate3d(0, 0, 0);
     }
+  }
 
-    .portrait {
-      width: 250px;
-      height: 250px;
-      background: url('../img/portrait.png');
-      border-radius: 50%;
-      border: 3px solid $secondary-color;
-    }
+  .portrait {
+    width: 250px;
+    height: 250px;
+    background: url('../img/portrait.png');
+    border-radius: 50%;
+    border: 3px solid $secondary-color;
   }
 
   .nav-item {

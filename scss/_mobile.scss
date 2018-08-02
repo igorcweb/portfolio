@@ -61,6 +61,13 @@
       'skill2'
       'skill3';
     grid-template-columns: 1fr;
+
+    .portrait {
+      background: url('../img/portrait-sm.png');
+      width: 150px;
+      height: 150px;
+      margin: auto;
+    }
   }
 }
 
@@ -77,10 +84,18 @@
 
     .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem;
+      font-size: 4rem;
     }
   }
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .bio p {
+    font-size: 1.3rem;
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 }
