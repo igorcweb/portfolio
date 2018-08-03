@@ -86,7 +86,7 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     'bioimage bio bio'
-    'skills skills skills';
+    'skill1 skill1 skill1';
   grid-template-columns: repeat(3, 1fr);
 
   .portrait {
@@ -106,8 +106,8 @@ main {
     font-size: 1.5rem;
   }
 
-  .skills {
-    grid-area: skills;
+  .skill-1 {
+    grid-area: skill1;
   }
 
   .skill {
