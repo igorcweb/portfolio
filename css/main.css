@@ -203,7 +203,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'skill1 skill2 skill3';
+  grid-template-areas: 'bioimage bio bio' 'skills skills skills';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .portrait {
     background: url("../img/portrait.png");
@@ -217,16 +217,25 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
-  .about-info .skill-1 {
-    grid-area: skill1; }
-  .about-info .skill-2 {
-    grid-area: skill2; }
-  .about-info .skill-3 {
-    grid-area: skill3; }
+  .about-info .skills {
+    grid-area: skills; }
   .about-info .skill {
-    background: #515151;
+    background: #727272;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
+  .about-info div.tech {
+    display: inline-block;
+    padding-top: 38px;
+    position: relative; }
+  .about-info h4.tech {
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); }
+  .about-info img.tech {
+    height: 100px;
+    margin: 10px; }
 
 .projects {
   display: grid;
