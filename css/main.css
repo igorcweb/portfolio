@@ -216,11 +216,12 @@ main {
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.3rem;
+    letter-spacing: 1px; }
   .about-info .skill-1 {
     grid-area: skill1; }
   .about-info .skill {
-    background: #727272;
+    background: #6a6a6a;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
   .about-info div.tech {
