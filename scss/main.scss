@@ -103,7 +103,8 @@ main {
 
   .bio {
     grid-area: bio;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
   }
 
   .skill-1 {
@@ -111,7 +112,7 @@ main {
   }
 
   .skill {
-    background: lighten($primary-color, 18);
+    background: lighten($primary-color, 15);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
   }
