@@ -127,9 +127,7 @@ main {
 .projects {
   display: grid;
   grid-gap: 1rem;
-
   grid-template-columns: repeat(3, 1fr);
-
   img {
     width: 100%;
     border: 3px silver solid;
@@ -149,6 +147,10 @@ main {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 1rem;
+
+  i {
+    margin-right: 3px;
+  }
 
   div {
     font-size: 1.4rem;
