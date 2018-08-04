@@ -6,7 +6,6 @@
   top: 35px;
   cursor: pointer;
   @include easeOut;
-
   .btn-line {
     width: 28px;
     height: 3px;
@@ -99,7 +98,7 @@
   }
 }
 
-//Delay each nave item slide by 0.1s
+//Delay each nav item slide by 0.1s
 @for $i from 1 through 4 {
   .nav-item:nth-child(#{$i}) {
     transition-delay: $i * 0.1s;
