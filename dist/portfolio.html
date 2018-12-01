@@ -1,106 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link rel="icon" type="image/png" href="./img/brackets.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio</title>
-  <link rel="icon" type="image/png" href="./img/brackets.png">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-  <link rel="stylesheet" href="./css/main.css">
-</head>
-
-<body>
-  <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-    </div>
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait"></div>
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
       </div>
-      <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">About Me</a>
-        </li>
-        <li class="nav-item current">
-          <a href="portfolio.html" class="nav-link">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">Contact Me</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main id="portfolio">
-    <h1 class="lg-heading">My
-      <span class="text-secondary">Portfolio</span>
-    </h1>
-    <h2 class="sm-heading">
-      Here are some of my projects:
-    </h2>
-    <div class="projects">
-      <div class="item">
-        <img src="img/projects/notegame.jpg" alt="notegame">
-        <a href="https://note-learning-game.herokuapp.com/" class="btn-light" target="_blank">
-          <i class="fas fa-eye"></i>
-          <span>Note-Learning Game</span>
-        </a>
-        <a href="https://github.com/igorcweb/note-learning-game-express" class="btn-dark" target="_blank">
-          <i class="fab fa-github"></i>
-          <span>Github</span>
-        </a>
+      <nav class="menu">
+        <div class="menu-branding"><div class="portrait"></div></div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item current">
+            <a href="portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="portfolio">
+      <h1 class="lg-heading">
+        My <span class="text-secondary">Portfolio</span>
+      </h1>
+      <h2 class="sm-heading">Here are some of my projects:</h2>
+      <div class="projects">
+        <div class="item">
+          <img src="img/projects/notegame.jpg" alt="notegame" />
+          <a
+            href="https://note-learning-game.herokuapp.com/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> <span>Note-Learning Game</span>
+          </a>
+          <a
+            href="https://github.com/igorcweb/note-learning-game-express"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> <span>Github</span>
+          </a>
+        </div>
+        <div class="item">
+          <img src="img/projects/class-app.jpg" alt="class-registration" />
+          <a
+            href="https://igorcweb-class-app.herokuapp.com"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> <span>Class Registration App</span>
+          </a>
+          <a
+            href="https://github.com/igorcweb/class-app"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> <span>Github</span>
+          </a>
+        </div>
+        <div class="item">
+          <img src="img/projects/mongo-scraper.jpg" alt="mongo-scraper" />
+          <a
+            href="https://igorcweb-mongo-scraper.herokuapp.com"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> <span>NYT Mongo Scraper</span>
+          </a>
+          <a
+            href="https://github.com/igorcweb/mongo-scraper"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> <span>Github</span>
+          </a>
+        </div>
+        <div class="item">
+          <img src="img/projects/clicky.jpg" alt="memory game" />
+          <a
+            href="https://igorcweb.github.io/memory-game"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> <span>React Memory Game</span>
+          </a>
+          <a
+            href="https://github.com/igorcweb/memory-game"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> <span>Github</span>
+          </a>
+        </div>
+        <div class="item">
+          <img src="img/projects/organic.png" alt="organic fitness world" />
+          <a
+            href="https://organic-fitness-world.herokuapp.com"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> <span>Organic Fitness World</span>
+          </a>
+          <a
+            href="https://github.com/igorcweb/online-store"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> <span>Github</span>
+          </a>
+        </div>
       </div>
-      <div class="item">
-        <img src="img/projects/class-app.jpg" alt="class-registration">
-        <a href="https://igorcweb-class-app.herokuapp.com" class="btn-light" target="_blank">
-          <i class="fas fa-eye"></i>
-          <span>Class Registration App</span>
-        </a>
-        <a href="https://github.com/igorcweb/class-app" class="btn-dark" target="_blank">
-          <i class="fab fa-github"></i>
-          <span>Github</span>
-        </a>
-      </div>
-      <div class="item">
-        <img src="img/projects/mongo-scraper.jpg" alt="mongo-scraper">
-        <a href="https://igorcweb-mongo-scraper.herokuapp.com" class="btn-light" target="_blank">
-          <i class="fas fa-eye"></i>
-          <span>NYT Mongo Scraper</span>
-        </a>
-        <a href="https://github.com/igorcweb/mongo-scraper" class="btn-dark" target="_blank">
-          <i class="fab fa-github"></i>
-          <span>Github</span>
-        </a>
-      </div>
-      <div class="item">
-        <img src="img/projects/clicky.jpg" alt="memory game">
-        <a href="https://igorcweb.github.io/memory-game" class="btn-light" target="_blank">
-          <i class="fas fa-eye"></i>
-          <span>React Memory Game</span>
-        </a>
-        <a href="https://github.com/igorcweb/memory-game" class="btn-dark" target="_blank">
-          <i class="fab fa-github"></i>
-          <span>Github</span>
-        </a>
-      </div>
-    </div>
-  </main>
+    </main>
 
-  <footer id="main-footer">
-    &copy;
-    <span id="year"></span> Igor Chernyshev
-  </footer>
+    <footer id="main-footer">
+      &copy; <span id="year"></span> Igor Chernyshev
+    </footer>
 
-  <script src="./js/main.js"></script>
-</body>
-
+    <script src="./js/main.js"></script>
+  </body>
 </html>
